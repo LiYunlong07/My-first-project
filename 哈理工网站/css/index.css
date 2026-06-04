@@ -1,0 +1,658 @@
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* #region 头部 start */
+.header {
+    background-color: #105fa5;
+}
+/* 头部背景图片 */
+.header .container {
+    height: 116px;
+    background-image: url(../images/heabd.jpg);
+    border-bottom: 1px solid #3977ae;
+}
+.header .logo {
+    margin: 6.5px 0;
+}
+/* 头部右侧整体盒子 */
+.header-right {
+    width: 217px;
+}
+/* 头部右侧旧版网站 */
+.header-right .oldlink {
+    height: 40px;
+    position: relative;
+}
+.header-right .oldlink ul li a {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 22px;
+    left: 169px;
+}
+/* 头部右侧搜索框 */
+.hr-search .search-input input {
+    height: 16px;
+    padding: 4px 0;
+    background-color: #105fa5;
+    color: #fff;
+    border: 1px solid white;
+    font-size: 12px;
+    padding: 4px 0;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.hr-search .search-input input::placeholder {
+    color: rgb(204, 195, 195);
+}
+/* 搜索按钮 */
+.hr-search .search-sub {
+    position: relative;
+}
+.hr-search .search-sub .submit-btn{
+    background: url(../images/sous.png) no-repeat center;
+    background-size: contain;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    top: -25px;
+    left: 132px;
+}
+/* #endregion 头部 end*/
+
+/* #region 导航栏 start */
+/* 导航栏背景色 */
+.nav {
+    background-color: #105fa5;
+}
+/* 导航栏背景图 */
+.nav .container {
+    height: 45px;
+    background-image: url(../images/navbd.jpg);
+}
+/* 导航栏一级菜单 */
+.nav .container>ul>li {
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+}
+.nav .container ul menu {
+    position: relative;
+}
+/* 一级菜单鼠标悬浮背景颜色的改变 */
+.nav .container ul li:hover {
+    background-color: #1384e2;
+}
+/* 导航栏一级菜单中的链接/文字 */
+.nav .container ul li a {
+    font-size: 15px;
+    color: #fff;
+}
+
+/* 导航栏二级菜单 */
+.nav .container ul li .second-menu {
+    min-width: 100px;
+    height: 40px;
+    display: none;
+    position: absolute;
+}
+/* 鼠标悬浮一级菜单上二级菜单显示 */
+.nav .container ul li:hover .second-menu {
+    display: block;
+}
+.nav .container ul li .second-menu li {
+    background-color: white;
+    
+}
+/* 二级菜单内容区的内边距 */
+.nav .container ul li .second-menu li a {
+    padding: 10px;
+}
+/* 鼠标悬浮二级菜单上背景颜色改变 */
+.nav .container ul li .second-menu li:hover {
+    background-color: #1384e2;
+}
+/* 导航栏二级菜单链接 */
+.nav .container ul li .second-menu li a {
+    color: black;
+}
+
+
+/* #endregion 导航栏 end*/
+
+/* #region banner图片 start */
+.imgbanner {
+    border-top: rgb(205, 140, 35) 5px solid ;
+    background-image: url(../images/banbd.jpg);
+}
+.imgbanner img {
+    width: 1100px;
+}
+
+/* #endregion banner图片 end*/
+
+/* #region main1主要区1 start */
+
+/* 主要区1背景图 */
+.main1 {
+    background-image: url(../images/main.png);
+    background-repeat: no-repeat;
+}
+.main1 .container {
+    padding-top: 40px;
+}
+/* 主要区1的左边部分整体宽度 */
+.main1_l {
+    width: 718px;
+}
+/* 主要区1左上标题 */
+.main1_lt .lt_title {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.main1_lt .lt_title span {
+    height: 28px;
+    line-height: 28px;
+    background-color: #bedcf6; 
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.main1_lt .lt_title a {
+    color: #3b3b3b;
+    font-size: 14px;
+}
+
+
+/* 主要区1左下 */
+/* 左下图片和标题整体部分 */
+.main1_lbl img {
+    width: 350px;
+    height: 232px;
+}
+.main1_lbl span {
+    width: 350px;
+    height: 45px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    line-height: 45px;
+    color: #105fa5;
+}
+
+
+/* 左下部分的右边新闻标题 */
+.main1_lbr {
+    width: 340px;
+}
+/* 第一部分 */
+.main1_lbr .lbr1 {
+    font-size: 16px;
+    padding-bottom: 18px;
+    border-bottom: 1px dashed black;
+    font-weight: bold;
+}
+.main1_lbr .lbr1 a {
+    color: #404040;
+}
+
+/* 第二部分 */
+/* 下划线 */
+.main1_lbr .lbr2 {
+    padding-top: 10px;
+    border-bottom: 1px dashed black;
+}
+/* 第一个li的下内边距 */
+.main1_lbr .lbr2 ul li:first-child {
+    padding-bottom: 5px;
+}
+/* 第一个li中的a标签字体设置 */
+.main1_lbr .lbr2 ul li:first-child a {
+    color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 第二个li的下内边距 */
+.main1_lbr .lbr2 ul li:last-child {
+    padding-bottom: 10px;
+}
+.main1_lbr .lbr2 ul li:last-child a {
+    font-size: 13px;
+    color: #7a7a7a;
+}
+.main1_lbr .lbr2 ul li:hover:last-child a {
+    color: #004891;
+}
+
+/* 第三部分 */
+.main1_lbr .lbr3 {
+    padding-top: 10px;
+}
+.main1_lbr .lbr3 ul li {
+    padding-bottom: 10px;
+}
+.main1_lbr .lbr3 ul li a {
+    font-size: 15px;
+}
+/* 第三部分鼠标悬浮字体变色 */
+.main1_lbr .lbr3 ul li:hover a {
+    color: #004891;
+}
+
+
+
+
+/* 主要区1右边的整体宽度 */
+.main1_r {
+    width: 345px;
+    /* 不需要高度和背景色 */
+    height: 300px;
+}
+/* 主要区1右上标题 */
+.main1_rt .rt_title {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.main1_rt .rt_title span {
+    height: 28px;
+    line-height: 28px;
+    background-color: #bedcf6; 
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 20px;
+    border-radius: 15px 15px 0 0;
+    cursor: pointer;
+}
+.main1_rt .rt_title a { 
+    color: #3b3b3b;
+    font-size: 14px;
+}
+
+/* 主要区1右下时间 */
+/* 每个li设置padding和margin */
+.main1_rb ul li {
+    height: 74px;
+    padding-bottom: 16px;
+    margin: 10px 0;
+}
+/* 时间 */
+.main1_rb .date .days,.year {
+    width: 72px;
+    text-align: center;
+}
+.main1_rb .date .days {
+    height: 41px;
+    line-height: 41px;
+    background-color: #004891;
+    color: white;
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+.main1_rb .date .year {
+    height: 31px;
+    line-height: 31px;
+    background-color: #e6e6e6;
+    color: #737373;
+} 
+/* 如果不给title设置宽度,右侧空间不够a标签内容,右浮动不明显 */
+.main1_rb .title {
+    width: 245px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 15px;
+    color: #3b3b3b;
+}
+/* 鼠标悬浮时日期背景色变色 */
+.main1_rb ul li:hover .days {
+    background-color: rgb(224, 179, 94);
+}
+/* 鼠标悬浮时字体变色 */
+.main1_rb .title a:hover {
+    color: #004891;
+}
+
+/* #endregion main1主要区1 end*/
+
+/* #region main2主要区2 start */
+
+/* 主要区一和主要区二的上外边距 */
+.main2 {
+    background-image: url(../images/main2.png);
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+/* 内容左标题部分 没有在内容左ml类中,后面两个应该都可以作用到,三部分相当于只写了一个部分的样式*/
+.main2 .title {
+    width: 345px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+/* 上侧标题左侧蓝色背景 */
+.main2 .title .leftfix {
+    width: 68px;
+    background-color: #bedcf6;
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+/* 上侧标题右侧更多 */
+.main2 .title .rightfix {
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+/* 鼠标悬浮时不变色 */
+.main2 .title .rightfix a:hover {
+    color: inherit;
+}
+/* 内容部分,没有写ml类,应该可以作用在后两个 */
+.main2 .text ul li {
+    width: 345px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* 内容区的新闻标题 */
+.main2 .text ul li .news_l {
+    width: 290px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* 新闻标题字体,包括左中右的字体设置 */
+.main2 .text ul li .news_l a {
+    color: #3b3b3b;
+}
+/* 鼠标悬浮时变蓝色 */
+.main2 .text ul li .news_l a:hover {
+    color: #004891;
+}
+.main2 .text ul li .news_mate {
+    color: #999;
+}
+/* 给内容中添加左右的外边距 */
+.main2 .middle {
+    margin: 0 32px;
+}
+
+/* #endregion main2主要区2 end*/
+
+/* #region 师生风采 start */
+/* 标题整体 */
+.ts .ts_title {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+/* 标题左 */
+.ts .ts_title .leftfix {
+    width: 68px;
+    background-color: #bedcf6;
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+/* 标题右 */
+.ts .ts_title .rightfix {
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+}
+/* 鼠标悬浮时不变色 */
+.ts .ts_title .rightfix a:hover {
+    color: inherit;
+}
+/* 轮播图整体 */
+.ts .cycle {
+    margin-bottom: 25px;
+}
+/* 轮播图  都用类cycle1统一设置格式,cycle作为父元素消除浮动*/
+.ts .cycle1 {
+    width: 250px;
+    margin: 0 20px;
+}
+.ts .cycle .top_i {
+    margin-bottom: 10px;
+    display: block;
+}
+.ts .cycle .top_i img {
+    width: 250px;
+    height: 180px;
+}
+/* 图片的下标题 */
+.ts .cycle .bottom_t {
+    height: 20px;
+    margin: 10px 0;
+}
+.ts .cycle .bottom_t a {
+    color: #3b3b3b;
+    font-size: 15px;
+}
+
+/* #endregion 师生风采 end*/
+
+/* #region 专业介绍 start */
+.pfi {
+    margin-bottom: 25px;
+}
+/* 标题部分 */
+.pfi .pfi_title {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+.pfi .pfi_title .leftfix {
+    width: 68px;
+    background-color: #bedcf6;
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+/* 内容区 */
+/* 每一个小板块的盒子 */
+.pfi_inner .content ul li {
+    margin: 0 15px;
+    margin-bottom: 25px;
+    border: 1px solid #b9c9d7;
+    cursor: pointer;
+}
+.pfi_inner .content ul li:nth-child(1) {
+    margin-left: 0;
+}
+.pfi_inner .content ul li:nth-child(4) {
+    margin-left: 0;
+}
+.pfi_inner .content ul li .pfi_ic {
+    width: 339px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background-color: #ebf1f5;
+}
+/* 小板块的a标签 */
+.pfi_inner .content ul li .pfi_ic a {
+    font-size: 15px;
+    color: #3b3b3b;
+}
+/* 鼠标悬浮时a标签字体变色 */
+.pfi_inner .content ul li:hover .pfi_ic a {
+    color: #004891;
+}
+/* 鼠标悬浮时更多图片变成小手 */
+.pfi_inner .more img:hover{
+    cursor: pointer;
+} 
+
+
+
+/* #endregion 专业介绍 end*/
+
+/* #region 校内资源 start*/
+.campus .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* 标题部分 */
+.campus .cp_title {
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+.campus .cp_title .leftfix {
+    width: 68px;
+    background-color: #bedcf6;
+    color: #105fa5;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+    padding: 0 20px;
+    cursor: pointer;
+}
+/* 校内资源内容部分 */
+.campus .cp_content ul li {
+    width: 145px;
+    height: 75px;
+    text-align: center;
+    line-height: 106px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+/* 最后一个li右边距为0，否则一行不够全部装下 */
+.campus .cp_content ul li:last-child {
+    margin-right: 0;
+}
+.campus .cp_content ul li a {
+    font-size: 15px;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+/* 鼠标悬浮时变色 */
+.campus .cp_content ul li:hover a {
+    color: #004891;
+}
+/* 分别设置背景图 背景其他属性已经通过li整体设置 */
+.campus .cp_content ul li .n1 {
+    background: url(../images/cp_icon1.png) no-repeat;
+}
+.campus .cp_content ul li .n2 {
+    background: url(../images/cp_icon2.png) no-repeat;
+}
+.campus .cp_content ul li .n3 {
+    background: url(../images/cp_icon3.png) no-repeat;
+}
+.campus .cp_content ul li .n4 {
+    background: url(../images/cp_icon4.png) no-repeat;
+}
+.campus .cp_content ul li .n5 {
+    background: url(../images/cp_icon5.png) no-repeat;
+}
+.campus .cp_content ul li .n6 {
+    background: url(../images/cp_icon6.png) no-repeat;
+}
+.campus .cp_content ul li .n7 {
+    background: url(../images/cp_icon7.png) no-repeat;
+}
+
+/* #endregion 校内资源 end*/
+
+/* #region 页脚 start*/
+.footer {
+    background-color: #105fa5;
+}
+/* 页脚上部链接 */
+.footer .ft_title {
+    height: 84px;
+    text-align: center;
+    line-height: 84px;
+    border-bottom: 1px solid #3977ae;
+}
+.footer .ft_title .tt {
+    margin-left: 20px;
+    margin-right: 28px;
+}
+.footer .ft_title .tt span {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+.footer .ft_title ul li{
+    margin-right: 28px;
+}
+.footer .ft_title ul li a {
+    font-size: 14px;
+    color: #ffff;
+    opacity: 0.8;
+}
+
+/* 页脚内容区 */
+.footer .ft_content {
+    height: 101px;
+    text-align: center;
+    padding-top: 45px;
+    position: relative;
+
+}
+.footer .ft_content p {
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.7;
+}
+/* 页脚内容区右侧二维码 */
+.footer .ft_content .ft_right .ftr1 {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+.footer .ft_content .ft_right .ftr2 {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+.footer .ft_content .ft_right img {
+    width: 80px;
+    margin-bottom: 5px;
+}
+.footer .ft_content .ft_right span {
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* #endregion 页脚 end*/
+
+
